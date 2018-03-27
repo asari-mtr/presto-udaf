@@ -10,6 +10,7 @@ public class AnswerToLifePlugin implements Plugin{
     @Override
     public Set<Class<?>> getFunctions() {
         return ImmutableSet.<Class<?>>builder()
+                .add(Dog.class)
                 .add(AnswerToLife.class)
                 .build();
     }
