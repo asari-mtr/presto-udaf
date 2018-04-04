@@ -32,13 +32,13 @@
         <dependency>
             <groupId>com.facebook.presto</groupId>
             <artifactId>presto-spi</artifactId>
-            <version>0.195</version>
+            <version>0.188</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>io.airlift</groupId>
             <artifactId>slice</artifactId>
-            <version>0.33</version>
+            <version>0.32</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -50,7 +50,7 @@
         <dependency>
             <groupId>io.airlift</groupId>
             <artifactId>stats</artifactId>
-            <version>0.163</version>
+            <version>0.155</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
